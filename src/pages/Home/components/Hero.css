@@ -1,0 +1,75 @@
+.heroSection{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9), transparent),  url('../../../assets/img/heroimage2.png');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    box-shadow: 0 20px 500px rgb(10, 33, 59);
+    position: relative;
+    z-index: 10;
+    
+
+}
+.heroSection h1{
+    color: white;
+    font-size: 66px;
+}
+.heroSection p{
+    color: rgb(151, 151, 153);
+    line-height: 1.6;
+}
+.containerHero{
+    padding-left: 8%;
+    padding-top: 8%;
+}
+.playBtn{
+    border: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    color: black;
+    background: linear-gradient(79deg,rgba(253, 85, 32, 1) 0%, rgba(246, 164, 30, 1) 100%);
+    margin-top: 1rem;
+}
+.moreBtn{
+   border: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(65, 65, 65);
+    margin-top: 1rem; 
+    margin-left: 1rem;
+}
+.paragraphHero{
+    color: rgb(231, 231, 229);
+    padding-bottom: 10px;
+}
+.paragraphHero span{
+    color: rgb(229, 184, 70);
+}
+
+
+/* !Tabelt------------- */
+
+@media (max-width: 768px){
+
+}
+
+/* !mobile---------------- */
+@media (max-width:480px){
+    .heroSection{
+    height: 80vh;
+
+}
+.heroSection h1{
+    font-size: 34px;
+    padding: 10px 0px;
+}
+.heroSection p{
+    line-height: 1.4;
+    font-size: 15px;
+}
+.containerHero{
+    padding-top: 19%;
+}
+
+
+}

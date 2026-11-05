@@ -1,0 +1,62 @@
+.cartMovies{
+    overflow: hidden;
+    color: rgb(151, 151, 153);
+    position: relative;
+}
+.cartMovies img:hover{
+    box-shadow: 0 6px 10px rgb(253, 92, 32);
+}
+.cartMovies h3{
+    padding: 0.5rem 0rem;
+}
+.cartMovies img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.genreMovie{
+    padding: 2px 4px;
+    border-radius: 10px;
+    width: fit-content;
+    color: white;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background-color: red;
+    font-size: 12px;
+    
+}
+.descMovie{
+    font-size: 11px;
+    /* padding-top: 0.2rem; */
+}
+.addBtn{
+    border: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    color: rgb(229, 178, 115);
+    border: 1px solid rgb(229, 178, 115);
+    margin-top: 0.5rem;
+    background-color: rgb(17, 17, 19);
+    width: fit-content;
+    
+}
+.addBtn:hover{
+   background: linear-gradient(79deg,rgba(253, 85, 32, 1) 0%, rgba(246, 164, 30, 1) 100%);
+   color: black;
+   font-weight: 600;
+   border: none;
+   cursor: pointer;
+}
+
+
+/* !Tabelt------------- */
+
+@media (max-width: 768px){
+
+}
+
+/* !mobile---------------- */
+@media (max-width:480px){
+    
+}

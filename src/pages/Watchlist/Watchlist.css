@@ -1,0 +1,28 @@
+.removeBtn{
+    border: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    color: black;
+    background: linear-gradient(79deg,rgb(253, 39, 32) 0%, rgb(242, 117, 106) 100%);
+    margin-top: 0.5rem;
+    width: 100%;
+}
+.watchlistSection{
+    
+    margin: 6% 10%;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 19);
+    border: 2px dotted rgb(29, 30, 32);
+    box-shadow: rgb(151, 151, 153) 0px 4px 12px;
+    
+}
+.titleWatchlist{
+    color: rgb(151, 151, 153);
+    padding: 0.6rem 1rem;
+    text-align: center;
+}
+.textWatchlist{
+    color: rgb(151, 151, 153);
+    padding: 0rem 1rem;
+    text-align: center;
+}

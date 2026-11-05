@@ -1,0 +1,19 @@
+/* App styles go here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(17, 17, 19);
+}
+/* !Tabelt------------- */
+
+@media (max-width: 768px){
+
+}
+
+/* !mobile---------------- */
+@media (max-width:480px){
+    
+}
